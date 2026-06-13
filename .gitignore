@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated artifacts (envs, trained models, plots, reports)
+backend/generated_envs/*
+!backend/generated_envs/.gitkeep
+backend/training/*
+!backend/training/.gitkeep
+*.zip
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Editors
+.vscode/
+.idea/
